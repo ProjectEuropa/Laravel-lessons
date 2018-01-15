@@ -270,6 +270,14 @@ resources/views/common/errors.blade.phpを作成し、以下の通りに編集�
 @endif
 ```
 
+## 動作確認
+```bash
+php artisan serve
+```
+を実行し、http://localhost:8000
+にアクセスして、タスクリスト一覧・タスク作成（バリデーション付き）・タスク削除機能があることを確認する。
+
+
 ## 課題1
 タスクリストの検索機能を作成してください。検索機能はTaskテーブルのnameを部分一致で検索してください。
 
