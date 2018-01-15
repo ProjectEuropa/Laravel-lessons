@@ -1,4 +1,4 @@
-# Laravel の基本 todo リスト作成
+# Laravel の基本 タスク リスト作成
 
 
 ## Laravelプロジェクト作成
@@ -151,6 +151,7 @@ resources/views/layouts/app.blade.phpを作成し、以下の通りに編集す�
     <head>
         <title>Laravel Quickstart - Basic</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
 
     <body>
