@@ -251,3 +251,7 @@ resources/views/tasks.blade.php作成し、以下の通りに編集する。
     </div>
 @endsection
 ```
+
+## 参考
+https://readouble.com/laravel/5.1/ja/quickstart.html
+
