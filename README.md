@@ -154,11 +154,6 @@ resources/views/layouts/app.blade.phpを作成し、以下の通りに編集す�
     </head>
 
     <body>
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <!-- ナビバーの内容 -->
-            </nav>
-        </div>
 
         @yield('content')
 
