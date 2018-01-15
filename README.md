@@ -251,6 +251,23 @@ resources/views/tasks.blade.php作成し、以下の通りに編集する。
     </div>
 @endsection
 ```
+resources/views/common/errors.blade.phpを作成し、以下の通りに編集する。
+```html
+@if (count($errors) > 0)
+    <!-- フォームのエラーリスト -->
+    <div class="alert alert-danger">
+        <strong>おや？何かがおかしいようです！</strong>
+
+        <br><br>
+
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+```
 
 ## 参考
 https://readouble.com/laravel/5.1/ja/quickstart.html
